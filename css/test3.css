@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blue;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+nav{
+    background-color: azure;
+    border: 1px solid white;
+    display: flex;
+    height: 15vh;
+    color: aqua;
+    position: relative;
+    /* float: right; */
+}
+
+nav .logo{
+    width: 20%;
+    margin: 40px;
+    /* border: 1px solid green; */
+
+}
+
+nav .nav-bar{
+    width: 80%;
+
+}
+
+.nav-bar ul{
+    /* border: 1px red; */
+    display: flex;
+    margin: 30px;
+    float: right;
+
+}
+
+.nav-bar ul li{
+/* border: 1px solid red; */
+list-style: none;
+margin: 20px;
+}
+
+#home{
+    color: red;
+}
